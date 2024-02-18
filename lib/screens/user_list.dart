@@ -20,7 +20,7 @@ class _UserListScreenState extends State<UserListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('User List'),
+        title: Text('Lista de Usuarios'),
       ),
       body: FutureBuilder<List<dynamic>>(
         future: _futureUsers,
